@@ -1,0 +1,6 @@
+print("Calculadora del área de un triángulo")
+Base = input("Indique la base del triángulo en metros: ")
+Altura = input("Indique la altura del triángulo en metros: ")
+Base = int(Base)
+Altura = int(Altura)
+print("El área del triángulo es de: ", Base * Altura/2, "M2")
