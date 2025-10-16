@@ -26,7 +26,8 @@ print(f"La cantidad de caracteres que tiene el texto es: {CantidadCaracteres}"
       )
 TextoInvertido = ' '.join(TextoSplit[::-1])
 print(f"El texto con el orden de palabras invertido es: {TextoInvertido}")
-
+print("La primera letra del texto es:", Texto[0] )
+print("La ultima letra del texto es:", Texto[-1] )
 
 if (palabra.lower() == "python" for palabra in TextoSplit):
     print("La palabra 'python' sí se encuentra en el texto.")
